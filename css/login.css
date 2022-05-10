@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rancho&display=swap");
+
+h1,
+h2,
+h6,
+h5,
+h3,
+p {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #06111a;
+
+  margin-left: -31px;
+}
+.start-all {
+  display: flex;
+  justify-content: center;
+}
+.stimg {
+  margin-left: 31px;
+}
+img {
+  max-width: 100%;
+}
+.log-in-img {
+  background: Linear-Gradient(To Left Bottom, Rgb(34, 45, 56), Rgb(13, 17, 23));
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.log-in-form {
+  background: Linear-Gradient(To Left Bottom, Rgb(34, 45, 56), Rgb(13, 17, 23));
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+input {
+  background: none;
+  border: 1px solid #358df1;
+  padding: 3px 35px;
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  width: 10px;
+}
+.ipp {
+  position: relative;
+}
+.icone {
+  left: 0;
+  top: 5px;
+}
+.password-i {
+  position: relative;
+}
+.bg2 {
+  padding-left: 2rem;
+}
+.icon-e {
+  position: absolute;
+  right: 8px;
+  bottom: 3px;
+}
+.key {
+  position: absolute;
+  left: 8px;
+  bottom: 3px;
+}
+.user-i {
+  position: relative;
+}
+.user {
+  position: absolute;
+  left: 8px;
+  bottom: 3px;
+}
+.btn {
+  border-radius: 10px;
+}
+.step-log-in-1 {
+  display: none;
+}
+.step-sign-in-1 {
+  display: none;
+}
+.d-none {
+  display: none;
+}
+.\31 stdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 13px;
+}
+
+/* responstiv */
+@media only screen and (max-width: 770px) {
+  .imgh {
+    display: none;
+  }
+}
